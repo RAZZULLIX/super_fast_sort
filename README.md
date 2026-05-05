@@ -28,3 +28,11 @@ From the project directory:
   python super_fast_sort_vs_numpy_benchmark.py --detailed --size-hist --iter 10000 --max-n 100
   ```
 Other useful flags: --time N, --distr uniform, --no-fail.
+
+Here are some benchmarks against numpy.sort:
+
+array size 100
+<img width="925" height="258" alt="Screenshot from 2026-05-05 14-25-40" src="https://github.com/user-attachments/assets/c07db42b-cac3-474a-aa01-2cae930e1a54" />
+
+array size 10000
+<img width="923" height="254" alt="Screenshot from 2026-05-05 14-26-01" src="https://github.com/user-attachments/assets/ebbeea52-513e-4faf-824d-0ae35089f118" />
